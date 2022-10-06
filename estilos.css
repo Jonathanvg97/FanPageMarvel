@@ -1,0 +1,648 @@
+
+*   {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: auto;
+    width:auto;
+}
+
+.encabezado{
+    /*display: none;*/
+    background-color:#A30606;
+    z-index: 2;
+    position:sticky;/*se fija el encabezado para cuando se haga el scroll siempre se vea*/
+    top: 0;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.LogoMarvel{
+    height: 120px;
+}
+
+.Login{
+    display: block;
+    position:relative;
+    z-index: 2;
+    list-style: none;
+    float: right;
+    background-color: #010036;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: -70px;
+    margin-right: 80px;
+    line-height: 140%;
+    text-align: center;
+  
+}
+a{
+    color:white;
+    padding: 2rem;
+    font-family:'Black Ops One', cursive;
+    font-size: 18px;
+    align-content: center;
+}
+
+.Telaraña{
+    z-index: 0;
+    position: absolute;
+    top: 150px;
+    margin: 0px;
+}
+
+.Personajes{
+    display:flex;
+    margin-top: 8px;
+    justify-content: center;
+    
+}
+
+.Personajes li{
+    list-style-type: none; /*quitar viñetas de los titulos*/
+    z-index: 1;
+}
+
+.Personajes .IconosPersonajes{
+   display:flex;
+   width: 130px;
+   margin: 2rem;
+}
+
+.navega{
+    display:flex;
+    justify-content: center;
+}
+
+.navega li{
+    background-color:#A30606;
+    color: white;
+    font-family:'Black Ops One', cursive;
+    border: 4px solid black;
+    border-radius: 20px;
+    font-size:30px;
+    margin-left: 18px;
+    padding: 1rem;
+    list-style-type: none;
+}
+
+
+/*estilos Main*/
+.tituloPrincipal{
+    background-color: #A30606;
+    border-radius: 90px ;
+    margin-right: 0.2rem;
+    margin-left: 0.2rem;
+    border: 4px solid black;
+    margin-block-start: 50px;
+    font-family:'Black Ops One', cursive;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+
+
+.tituloSecundario{
+    background-color: #010036; 
+    color: white;
+    border-radius: 90px ;
+    border: 4px solid black;
+    font-family:'Black Ops One', cursive;
+    font-size: 70px;
+    width: 800px;
+    margin:3rem auto;
+    text-align: center; 
+}
+
+figure{
+    background: linear-gradient(to right, #010036 0%,#010036 50%, #A30606 50%, #A30606 100%) ;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+.Ironman {
+    height:550px;
+}
+
+.MascaraIron{
+    padding: 10px; 
+    margin:140px; 
+    float: right; 
+    width: 250px; 
+    margin-top:-550px;
+}
+
+.Numeros{
+    margin: 120px;  
+    float: left; 
+    width: 250px;
+    margin-top:-310px;
+}
+
+.Parrafo{
+    float: right; 
+    margin:100px; 
+    font-family:'Alkalami', serif;
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 120%;/*interlineado*/
+    margin-top:-200px;
+}
+
+main .Subtitulo{
+    float: left;
+    margin-left: -280px;
+}
+
+.Subtitulo{
+    
+    margin-top:30px;
+    list-style-type: none;
+    background-color: #A30606;
+    width: 80px;
+    padding: 22px;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    border: 4px solid black;
+    border-radius: 10px;  
+    
+
+}
+.Descripcion{
+    
+    font-family:'Black Ops One', cursive;
+    font-size: 22px;
+    color: white;
+}
+
+.ParrafoDatos{
+    padding: 1rem;
+    display: flex;
+    margin-top: 60px;
+    margin-left:320px;
+    margin-right: 80px;
+    justify-content: center;
+    text-align:center; 
+    font-size: 34px;
+    line-height: 120%;/*interlineado*/
+    font-family:'Alkalami', serif;
+    color:white;
+
+}
+
+p{
+    background-color: #010036;
+    border: 4px solid black;
+    border-radius: 10px;  
+}
+
+.Vengadores{
+    height: 550px;
+}
+
+.Numero4{
+    margin: 120px;  
+    float: left; 
+    width: 250px;
+    margin-top:-310px;
+}
+
+.AvengersLogo{ 
+    margin:110px; 
+    float: right; 
+    width: 260px; 
+    margin-top:-510px;
+}
+
+.ParrafoDatos2{
+    padding: 1rem;
+    display: flex;
+    margin-top: 70px;
+    margin-left:320px;
+    margin-right: 80px;
+    justify-content: center;
+    text-align:center; 
+    font-size: 34px;
+    line-height: 120%;/*interlineado*/
+    font-family:'Alkalami', serif;
+    color:white;
+}
+
+.CapitanA{
+    height: 550px;
+}
+
+.LogoCapitan{
+    margin:110px; 
+    float: right; 
+    width: 300px; 
+    margin-top:-510px;
+}
+
+.Numero3{
+    margin: 120px;  
+    float: left; 
+    width: 250px;
+    margin-top:-310px;
+}
+
+.ParrafoDatos3{
+    padding: 1rem;
+    display: flex;
+    margin-top: 84px;
+    margin-left:320px;
+    margin-right: 80px;
+    justify-content: center;
+    text-align:center; 
+    font-size: 36px;
+    line-height: 120%;/*interlineado*/
+    font-family:'Alkalami', serif;
+    color:white;
+}
+
+.Thor{
+    height: 600px;
+}
+
+.LogoThor{
+    margin:10px; 
+    float: right; 
+    height: 450px; 
+    margin-top:-620px;
+}
+
+.Numero2{
+    margin: 120px;  
+    float: left; 
+    width: 250px;
+    margin-top:-310px;
+}
+
+.ParrafoDatos4{
+    padding: 1rem;
+    display: flex;
+    margin-top: 60px;
+    margin-left:320px;
+    margin-right: 80px;
+    justify-content: center;
+    text-align:center; 
+    font-size: 36px;
+    line-height: 120%;/*interlineado*/
+    font-family:'Alkalami', serif;
+    color:white;
+}
+
+.Thanos{
+    height: 450px;
+}
+
+.Hulk{
+    margin:200px; 
+    float: right; 
+    height: 350px; 
+    margin-top:-450px;
+}
+
+.Guante{
+    margin:190px; 
+    float: left; 
+    height: 140px; 
+    margin-top:-450px;
+    
+}
+
+.Wanda{
+    margin-left: 370px; 
+    float: left; 
+    height: 360px; 
+    margin-top:-450px;
+    
+}
+
+.Numero1{
+    margin: 120px;  
+    float: left; 
+    width: 250px;
+    margin-top:-310px;
+}
+
+
+.ParrafoDatos5{
+    padding: 1rem;
+    display: flex;
+    margin-top: 100px;
+    margin-left:320px;
+    margin-right: 80px;
+    justify-content: center;
+    text-align:center; 
+    font-size: 36px;
+    line-height: 120%;/*interlineado*/
+    font-family:'Alkalami', serif;
+    color:white;
+}
+
+
+.tituloSecundario2{
+    background-color: #010036; 
+    color: white;
+    border-radius: 90px ;
+    border: 4px solid black;
+    font-family:'Black Ops One', cursive;
+    font-size: 70px;
+    width: 800px;
+    margin:3rem auto;
+    text-align: center; 
+}
+
+/*Sección comentarios*/
+.container{
+    background-color: #A30606;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Comentarios{
+    margin: 10px;
+}
+
+
+.form_comentarios textarea{
+    
+    font-family: 'Alkalami', serif;
+    font-size: 18px;
+    line-height: 30px;
+    border: 3px solid #010036;
+    border-radius: 8px;
+    margin-bottom: 20px;
+ 
+}
+
+textarea{
+    background-color: rgb(213, 222, 238);
+    height: 100px;
+    max-width: 600px;
+    min-width: 400px;
+    min-height: 100px;
+    max-height: 300px;
+    padding: 10px;
+}
+
+ .form_comentarios .btn{
+    background-color: #010036;
+    font-family:'Black Ops One',sans-serif;
+    font-size: 18px;
+    border-radius: 30px;
+    color: white;
+    margin-bottom: 20px;
+    position: static;
+    
+    
+ }
+
+ .form_comentarios .btn:hover{
+    box-shadow: 0px 0px 9px rgb(0, 0, 0,.35); /*sombra al boton*/
+    /*La pseudo-clase :hover de CSS coincide cuando el usuario interactúa con un
+     elemento con un dispositivo señalador, 
+    pero no necesariamente lo activa. 
+    Generalmente se activa cuando el usuario se desplaza sobre
+     un elemento con el cursor (puntero del mouse).*/
+ }
+ .btn{
+    padding: 1rem;
+    margin-left: 66%;
+ }
+
+ .media{/*linea separadora de secciones*/
+    background-color: #A30606;
+    border-top: 1px solid white;
+    display: flex;
+    margin-top: 0.4rem;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ .Foto{
+    width: 100px;
+    height:100px;
+    display: flex;
+    margin-top: 60px;
+    margin-left: 120%;
+ }
+
+.Nombre{
+    background-color: #010036;
+    margin-left: 190px;
+    margin-right:700px ;
+    display: flex;
+    margin-bottom: 60px;
+    border: 1px solid white;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Alkalami', serif;
+    color: yellow;
+    line-height: 100%;
+    margin-top: 5px;
+    padding: 0.5rem;
+}
+
+.comentario{
+    /* background-image: url("/IMAGENES MARVEL/Guante.png"); */
+    background-color:  rgb(213, 222, 238);
+    margin-left: 180px;
+    border: 3px solid #010036;
+    border-radius: 8px;
+    font-family:'Alkalami', serif; 
+    line-height: 140%;
+    justify-content: center;
+    text-align: center;
+    margin-top: -50px;
+    padding: 0.4rem;
+    
+}
+
+.botones{
+   display: flex;
+   color: black;
+   justify-content: center;
+   margin-left: 320px;
+   margin-top: 5px;
+ }
+
+
+
+.botones li{
+    background-color:#010036;
+    color: white;
+    font-family:'Black Ops One', cursive;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size:4px;
+    margin-right: 5px;
+    padding:0.2px;
+    list-style-type: none;
+    z-index: 2;
+    position: static;
+}
+
+.Recomendaciones{
+    margin-top:20px;
+    height: 300px;
+    padding: 0.5rem;
+
+}
+
+.Parrafo2{ 
+    float: right; 
+    margin-right: 100px;
+    font-family:'Black Ops One', cursive;
+    color:white;
+    font-size: 40px;
+    line-height: 120%;/*interlineado*/
+    margin-top:-200px;
+    text-align: center;
+}
+
+.Grood{
+    height: 500px;
+    float: left;
+    margin-left: 2rem;
+    margin-top: -800px;
+}
+
+
+/*Footer*/
+
+.tituloPrincipal{
+    background-color: #010036;
+    border-radius: 30px ;
+    border: 4px solid black;
+    font-family:'Black Ops One', cursive;
+    font-size: 70px;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+}
+
+.PiePagina{
+    display:flex;
+    margin-top: 8px;
+    justify-content: center;
+    list-style: none;
+}
+
+.PiePagina .Redes{
+    display:flex;
+    height: 80px;
+    width: 80px;
+    margin: 2rem;
+}
+
+.PiePagina .Redes-Marca{
+    display: flex;
+    height:200px ;
+    width: 200px;
+    margin-top: -30px;
+}
+
+.Suscripcion .btn:hover{
+    box-shadow: 0px 0px 9px rgb(0, 0, 0,.35); 
+  
+}
+.Suscripcion .btn{
+    background-color: #A30606;
+    font-family:'Black Ops One',sans-serif;
+    font-size: 18px;
+    border:4px solid black; ;
+    border-radius: 30px;
+    color: white;
+    align-items: center;
+    
+    
+}
+.btn{
+    padding: 1rem;
+    margin-top: -30px;
+}
+   
+
+/* Estilos html HISTORIA*/
+
+.tituloSecundarioHistoria{
+    background-color: #010036; 
+    color: white;
+    border-radius: 90px ;
+    border: 4px solid black;
+    font-family:'Black Ops One', cursive;
+    font-size: 40px;
+    width: 800px;
+    margin:2rem auto;
+    text-align: center; 
+}
+
+.ParrafoDatosHistoria{
+    padding: 1rem;
+    display: flex;
+    margin-top: 60px;
+    margin-left:300px;
+    margin-right: 360px;
+    text-align:center; 
+    font-size: 26px;
+    line-height: 120%;/*interlineado*/
+    font-family:'Alkalami', serif;
+    color:white;
+}
+
+.VideoHistoria iframe{
+    margin: auto ;
+    display:flex;
+    margin-top: 3rem;
+    justify-content: center;
+    height: 380px;
+    width: 600px;
+
+ 
+}
+
+
+/*estilo html peliculas*/
+
+.pelis{
+    margin-top: 30px;
+    font-family: 'Alkalami', serif;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+
+    background-color: #A30606;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.buscar{
+    padding: 0.4rem;
+    background-color:antiquewhite;
+    align-items: center;
+}
+
+.Botonbuscar{
+    background-color: #010036;
+    font-family: 'Alkalami', serif;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 18px;
+
+}
+
+.Caratula{
+    margin-top: 3rem;
+    text-align: center;
+}
+
